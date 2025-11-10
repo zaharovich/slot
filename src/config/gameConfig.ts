@@ -7,11 +7,11 @@ export const GAME_CONFIG = {
 export const REEL_CONFIG = {
   columns: 3,
   rows: 3,
-  symbolWidth: 185,  // Ширина красного квадрата (БЕЗ отступов)
-  symbolHeight: 168, // Высота красного квадрата (БЕЗ отступов)
-  symbolSize: 168,   // Для обратной совместимости (используем высоту)
-  symbolSpacing: 15,  // Отступы между колонками (по бокам центральной линии)
-  rowSpacing: 0,      // Без отступов между рядами (вертикально)
+  symbolWidth: 185,
+  symbolHeight: 168,
+  symbolSize: 168,
+  symbolSpacing: 15,
+  rowSpacing: 0,
   spinDuration: 2200,
   spinDelay: 220,
   acceleration: 850,

@@ -3,7 +3,7 @@ export const CASINO_CONFIG = {
  
   
   
-  winProbability: 25, // Процент (от 0 до 100)
+  winProbability: 25,
   
   symbolWeights: {
     cherry: 30,      
