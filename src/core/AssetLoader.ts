@@ -12,21 +12,21 @@ class AssetLoaderClass {
   async load(): Promise<void> {
     if (this.loaded) return;
 
-    const baseTexture = await Assets.load<Texture>('/assets/slot.jpg');
+    const baseTexture = await Assets.load<Texture>('./assets/slot.jpg');
     
-    this.spinSound = new Audio('/assets/spin-sound.mp3');
+    this.spinSound = new Audio('./assets/spin-sound.mp3');
     this.spinSound.loop = true; 
     this.spinSound.volume = 0.5; 
     
     // Загружаем звук остановки барабана
-    this.reelStopSound = new Audio('/assets/reel-stop.wav');
+    this.reelStopSound = new Audio('./assets/reel-stop.wav');
     this.reelStopSound.volume = 0.6; 
     
     // Загружаем звук выигрыша
-    this.winSound = new Audio('/assets/win-sound.wav');
+    this.winSound = new Audio('./assets/win-sound.wav');
     this.winSound.volume = 0.7;
     
-    const coinTexture = await Assets.load<Texture>('/assets/coin-animation.png');
+    const coinTexture = await Assets.load<Texture>('./assets/coin-animation.png');
     const frameCount = 8;
     const frameWidth = coinTexture.width / frameCount;
     const frameHeight = coinTexture.height;
