@@ -7,17 +7,17 @@ export const GAME_CONFIG = {
 export const REEL_CONFIG = {
   columns: 3,
   rows: 3,
-  symbolWidth: 185,
-  symbolHeight: 168,
-  symbolSize: 168,
-  symbolSpacing: 15,
-  rowSpacing: 0,
-  spinDuration: 2200,
-  spinDelay: 220,
-  acceleration: 850,
-  deceleration: 300,
-  minSpeed: 0,
-  maxSpeed: 38
+  symbolWidth: 185, //symbolWidth
+  symbolHeight: 168, //symbolHeight
+  symbolSize: 168, //symbolSize
+  symbolSpacing: 15, //symbolSpacing
+  rowSpacing: 0, //rowSpacing
+  spinDuration: 2200, //spinDuration
+  spinDelay: 220, //spinDelay
+  acceleration: 850, //acceleration
+  deceleration: 300, //deceleration
+  minSpeed: 0, //minSpeed
+  maxSpeed: 38 //maxSpeed
 } as const;
 
 export type SymbolType = 
